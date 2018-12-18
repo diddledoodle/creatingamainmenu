@@ -1784,6 +1784,7 @@ GameObject:
   - component: {fileID: 1392569891}
   - component: {fileID: 1392569893}
   - component: {fileID: 1392569892}
+  - component: {fileID: 1392569895}
   - component: {fileID: 1392569894}
   m_Layer: 5
   m_Name: MainMenuPanel
@@ -1869,6 +1870,19 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
+--- !u!114 &1392569895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1392569890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89505f8255a3a94f904fd88a035e74e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSystem: {fileID: 132034338}
+  selectedObject: {fileID: 1823394064}
 --- !u!1 &1418526955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,6 +1894,7 @@ GameObject:
   - component: {fileID: 1418526959}
   - component: {fileID: 1418526958}
   - component: {fileID: 1418526957}
+  - component: {fileID: 1418526960}
   m_Layer: 5
   m_Name: AudioButton
   m_TagString: Untagged
@@ -2002,6 +2017,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1418526955}
+--- !u!114 &1418526960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1418526955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b89505f8255a3a94f904fd88a035e74e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventSystem: {fileID: 0}
+  selectedObject: {fileID: 0}
 --- !u!1 &1603092067
 GameObject:
   m_ObjectHideFlags: 0
